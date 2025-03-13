@@ -15,7 +15,7 @@ git status - отображение файлов с изменениями (по
 
 git commit -m "commit message" - создание коммита
 
-git push -u origin master - залить на удаленный репозиторий в ветку master
+git push -u origin master - залив изменений на удаленный репозиторий origin в ветку master
 
 git log - отображение истории всех коммитов в данной ветке
 
