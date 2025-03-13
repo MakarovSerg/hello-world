@@ -1,0 +1,38 @@
+Установка имени и email в git:
+
+git config --global user.name "name"
+git config --global user.email "email@example.com"
+
+
+git init - инициализация git (репозитория)
+
+git clone <адрес проекта> - клонирование репозитория проекта в выбранную директорию
+
+git add <file> - индексация изменений отдельных файлов (например, git add index.html style.css main.js) 
+git add . - индексация изменений (всех)
+
+git status - отображение файлов с изменениями (показывает, какие файлы были изменены)
+
+git commit -m "commit message" - создание коммита
+
+git push -u origin master - залить на удаленный репозиторий в ветку master
+
+git log - отображение истории всех коммитов в данной ветке
+
+git checkout develop - переключение на ветку develop
+git checkout <хэш>  - переключение на ветку по хэшу
+git checkout -b develop - создание ветки develop и переключение на нее
+
+
+git remote add <shortname> <url репозитория> - соединение локального репозиторий с удалённым, доступным по данному url
+
+git clone - клонирование репозитория
+git branch <branch_name> - создание новой ветки
+git checkout <branch_name> - переключение между ветками
+git add - добавление изменений
+git commit - совершение коммита
+git push - отправка изменений
+git merge - слияние веток (или запрос на слияние (pull request) в веб-интерфейсе сервиса (например, GitHub))
+git pull - обновление локального репозитория
+
+git status - состояние изменений
