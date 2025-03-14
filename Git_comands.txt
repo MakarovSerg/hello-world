@@ -1,5 +1,5 @@
 Установка имени и email в GIT:
-оры
+Тест конфликта
 git config --global user.name "name"
 git config --global user.email "email@example.com"
 
