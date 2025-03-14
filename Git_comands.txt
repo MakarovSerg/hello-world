@@ -36,3 +36,7 @@ git merge - слияние веток (или запрос на слияние (
 git pull - обновление локального репозитория
 
 git status - состояние изменений
+
+Статьи:
+https://gist.github.com/avshatalov48/a9c6d5e3b6492a27362dfffe01b07a10
+https://education.github.com/git-cheat-sheet-education.pdf
