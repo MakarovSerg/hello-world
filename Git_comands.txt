@@ -68,3 +68,23 @@ https://education.github.com/git-cheat-sheet-education.pdf
 * Modified: Файлы изменены в рабочем каталоге, но еще не добавлены в индекс.
 * Staged: Измененные файлы добавлены в индекс и готовы к коммиту.
 * Committed: Изменения в файлах зафиксированы в истории репозитория.
+
+
+Последовательность действий для создания удаленной ветки:
+
+1. Создание новой локальной ветки и переключение на неё:
+Команда: git checkout -b <branch-name>
+
+2. Добавление и коммит изменений:
+Команда: git add .
+Команда: git commit -m "Initial commit on new-feature branch"
+
+3. Первый push и установка upstream (связанной) ветки:
+Команда: git push -u origin new-feature
+Эта команда отправит изменения в ветке new-feature в удаленный репозиторий (предполагая, что удаленный репозиторий называется origin).
+Опция -u устанавливает new-feature как upstream ветку для origin/new-feature, что позволяет в дальнейшем использовать git push и git pull без указания имени ветки.
+
+4. Merge ветки в master:
+git checkout master
+git merge <branch-name>
+git push
